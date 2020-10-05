@@ -21,3 +21,9 @@ docker-compose build
 ```sh
 docker-compose up
 ```
+
+### Run container from docker hub
+
+```sh
+docker run -it --rm --entrypoint sh adiii717/alpine-oracle-client-nodejs:latest
+```
